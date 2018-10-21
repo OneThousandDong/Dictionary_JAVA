@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="487.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testfx.FXML3Controller">
+   <children>
+      <TextField fx:id="word" layoutX="238.0" layoutY="72.0" prefHeight="25.0" prefWidth="188.0" />
+      <Label fx:id="result" alignment="CENTER" layoutX="222.0" layoutY="196.0" prefHeight="174.0" prefWidth="220.0">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+      <Label layoutX="76.0" layoutY="72.0" prefHeight="25.0" prefWidth="151.0" text="Nhập Từ Muốn Xóa" />
+   </children>
+</AnchorPane>

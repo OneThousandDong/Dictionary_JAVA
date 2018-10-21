@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="487.0" prefWidth="663.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="testfx.FXMLhelpController">
+   <children>
+      <TextArea fx:id="text" layoutX="14.0" layoutY="14.0" prefHeight="464.0" prefWidth="635.0" text="&#10;&#10;&#10;&#10;                                                   Chào Mừng Bạn Đến Với Ứng Dụng QNDictionary&#10;1.Hướng Dẫn Sử Dụng&#10;1.1Menu&#10;*Xem Danh Sách Từ : Xem vốn từ vựng 109 000 từ bao gồm cả nghĩa và giải thích từ vựng.&#10;*Thêm Từ: Nếu thấy thiếu từ bạn có thể thêm từ mục này.&#10;*Xóa Từ : Mục này dùng để xóa từ mà bạn thấy sai hoặc không có nghĩa.&#10;1.2 Tìm Kiếm Từ&#10;Nhập từ bạn muốn tra cứu vào ô  Nhập Từ Muốn Tìm.  Nghĩa của nó sẽ được hiển thị ở bên phải có mở rộng thêm &#10;giải thích và cách sử dụng từ.&#10;Click chuột vào icon góc phải màn hình để nghe phát âm từ.&#10;2 Kết&#10;Chúc Bạn Học Tập Hiệu Quả Với Ứng Dụng QNDictionary.&#10;QNDictionary develop and design by Professor Nguyen Huu Nam,Professor Nguyen Huu Minh Quang.&#10;QNDictionary get powered by QN corporation.&#10;Copyright all right reserved.&#10;&#10;&#10;&#10;&#10;&#10;&#10;" />
+      <Button fx:id="backbutton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TestFX.jnlp">
+  <information>
+    <title>TestFX</title>
+    <vendor>Admin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TestFX.jar" size="118382" download="eager" />
+    <jar href="lib\cmu_time_awb.jar" size="1723774" download="eager" />
+    <jar href="lib\cmu_us_kal.jar" size="4899359" download="eager" />
+    <jar href="lib\cmudict04.jar" size="894905" download="eager" />
+    <jar href="lib\cmulex.jar" size="599429" download="eager" />
+    <jar href="lib\cmutimelex.jar" size="1231" download="eager" />
+    <jar href="lib\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib\controlsfx-samples-8.40.14.jar" size="725707" download="eager" />
+    <jar href="lib\en_us.jar" size="866598" download="eager" />
+    <jar href="lib\freetts-jsapi10.jar" size="56313" download="eager" />
+    <jar href="lib\freetts.jar" size="208668" download="eager" />
+    <jar href="lib\fxsampler-1.0.10.jar" size="30882" download="eager" />
+    <jar href="lib\mbrola.jar" size="11926" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TestFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="testfx.TestFX"  name="TestFX" />
+  <update check="always"/>
+</jnlp>
